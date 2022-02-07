@@ -1,0 +1,33 @@
+@media (max-width: 1249.8px) {
+    section {
+        width: 100%;
+        max-width: none;
+        min-width: auto;
+        overflow-x: hidden;
+    }
+    .idc-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+   
+}
+
+@media (max-width: 767.8px) {
+    .idc-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .idc-title {
+        font-size: 25px;
+        max-width: 278px;
+    }
+  
+}
+
+@media (max-width: 395px) {
+    .idc-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}
