@@ -414,6 +414,12 @@
         padding-bottom: 5px;
         margin-top: 10px;
     }
+    .idc-mission .idc-list-item{
+        margin: 0 auto;
+    }
+    .idc-mission .idc-title-h1 + .idc-text-2{
+        max-width: 100%;
+    }
     /* *****slider**** */
 
     .idc-subslider {
