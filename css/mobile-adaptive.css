@@ -1,33 +1,483 @@
-@media (max-width: 1249.8px) {
-    section {
-        width: 100%;
-        max-width: none;
-        min-width: auto;
-        overflow-x: hidden;
+@media (max-width: 1339px) {
+    .idc-section {
+        max-width: 100%;
+        min-width: 100%;
     }
     .idc-container {
-        padding-left: 40px;
-        padding-right: 40px;
+        max-width: 930px;
     }
-   
-}
 
-@media (max-width: 767.8px) {
+    /* ********about***** */
+    .idc-about .idc-card {
+        margin-left: 20px;
+    }
+
+    /* ********mission***** */
+    .idc-mission .idc-title-h1 + .idc-text-2 {
+        max-width: 613px;
+    }
+
+    /* ********slider***** */
+    .idc-slider .idc-container {
+        padding-bottom: 130px;
+    }
+    .idc-subslider {
+        padding: 42px 36px 42px 42px;
+        width: 455px;
+        right: 80px;
+    }
+    .idc-swiper-button-prev {
+        left: 23px;
+    }
+    .idc-swiper-button-next {
+        right: 23px;
+    }
+
+    /* ********pluses***** */
+    .idc-pluses .idc-container {
+        padding-bottom: 20px;
+    }
+    .idc-pluses .idc-title-h1 {
+        max-width: 606px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .idc-pluses-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .idc-video-block {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .idc-video {
+        height: 541px;
+    }
+    /* ********squad***** */
+
+    .idc-squad .idc-title-h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* ********direction***** */
+    .idc-directions .idc-cards {
+        margin-top: 0;
+    }
+    .idc-directions .idc-card {
+        width: calc(50% - 10px);
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .idc-directions .idc-card:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+    .idc-directions .idc-card:nth-child(3),
+    .idc-directions .idc-card:nth-child(4) {
+        margin-top: 45px;
+    }
+
+    /* ********facts***** */
+
+    .idc-facts-block {
+        padding: 0 77px;
+        margin-top: 0;
+    }
+    .idc-fact {
+        width: calc(50% - 12px);
+        margin-top: 20px;
+    }
+    .idc-fact:nth-child(2n) {
+        margin-left: 24px;
+    }
+    .idc-fact:nth-child(2n + 1) {
+        margin-left: 0;
+    }
+}
+@media (max-width: 1019px) {
     .idc-container {
-        padding-left: 30px;
-        padding-right: 30px;
+        max-width: 610px;
     }
-    .idc-title {
-        font-size: 25px;
-        max-width: 278px;
+
+    /* ********about***** */
+    .idc-about .idc-container {
+        padding: 20px 51px 50px;
     }
-  
+    .idc-about .idc-logo {
+        margin: 0 auto;
+    }
+    .idc-about .idc-cards {
+        margin-top: 30px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .idc-about .idc-card {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+        padding-right: 13px;
+    }
+
+    /* ********mission***** */
+
+    .idc-mission .idc-container {
+        padding: 0 51px;
+        padding-bottom: 50px;
+    }
+    .idc-mission .idc-text-2 + .idc-title-h1 {
+        margin-top: 20px;
+    }
+
+    /* ********slider***** */
+
+    .idc-slider .idc-container {
+        padding-bottom: 207px;
+    }
+    .idc-subslider {
+        right: unset;
+        left: 50%;
+        width: 506px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .idc-swiper-button-prev {
+        left: 10px;
+    }
+    .idc-swiper-button-next {
+        right: 10px;
+    }
+    /* ********pluses***** */
+    .idc-pluses .idc-container {
+        padding-top: 50px;
+        padding-bottom: 5px;
+    }
+    .idc-pluses .idc-title-h1 {
+        max-width: 452px;
+    }
+    .idc-pluses-content {
+        margin-top: 20px;
+    }
+    .idc-video {
+        height: 357px;
+    }
+    /* ********squad***** */
+
+    .idc-squad .idc-container {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    /* ********direction***** */
+    .idc-directions .idc-container {
+        padding-top: 50px;
+        padding-bottom: 75px;
+        padding-right: 51px;
+        padding-left: 51px;
+    }
+
+    .idc-directions .idc-card {
+        width: 100%;
+        margin-left: 0;
+    }
+    .idc-directions .idc-card:nth-child(3),
+    .idc-directions .idc-card:nth-child(4) {
+        margin-top: 20px;
+    }
+
+    /* ********facts***** */
+
+    .idc-facts .idc-title-h1 {
+        max-width: 504px;
+    }
+    .idc-facts .idc-title-h1 > span {
+        display: inline-block;
+    }
+    .idc-facts-block {
+        padding: 0;
+    }
+    .idc-fact {
+        width: calc(50% - 10px);
+    }
+    .idc-fact > .idc-text-2 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .idc-fact:nth-child(2n) {
+        margin-left: 20px;
+    }
+    /* **********footer********* */
+    .idc-footer .idc-container {
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 699px) {
+    .idc-title-h1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .idc-title-h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .idc-title-h3 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .idc-text-1 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .idc-text-2 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .idc-container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    /* *****head**** */
+    .idc-head__img:nth-child(2),
+    .idc-head__img:nth-child(3) {
+        display: none;
+    }
+
+    /* *****about**** */
+
+    .idc-about .idc-container {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 40px;
+    }
+    .idc-about .idc-logo {
+        width: 114px;
+    }
+    .idc-about .idc-card:first-child {
+        margin-top: 40px;
+    }
+    .idc-about .idc-cards {
+        margin-top: 0;
+    }
+
+    .idc-card__icon {
+        width: 60px;
+        height: 60px;
+    }
+    /* *****mission**** */
+
+    .idc-mission .idc-container {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 40px;
+    }
+    .idc-mission .idc-title-h1 + .idc-text-2 {
+        max-width: 316px;
+    }
+    .idc-mission .idc-list-item {
+        max-width: 315px;
+    }
+
+    /* *****slider**** */
+    .idc-slider .idc-container {
+        padding-bottom: 0;
+    }
+    .idc-subslider {
+        position: relative;
+        width: 100%;
+        padding: 20px 44px 20px 50px;
+        margin-top: -1px;
+    }
+    .idc-swiper-button-prev {
+        left: 18px;
+    }
+    .idc-swiper-button-next {
+        right: 18px;
+    }
+
+    /* *****pluses**** */
+    .idc-pluses .idc-title-h1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .idc-pluses .idc-list-item:not(:first-child) {
+        margin-top: 15px;
+    }
+    .idc-pluses .idc-list-item {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 39px;
+    }
+    .idc-pluses .idc-list-item:first-child {
+        padding-bottom: 14px;
+    }
+    .idc-pluses .idc-item__icon {
+        top: -7px;
+    }
+    .idc-pluses .idc-list {
+        max-width: 336px;
+    }
+    .idc-video {
+        height: 54.2vw;
+    }
+
+    /* *****squad**** */
+
+    .idc-squad .idc-title-h1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.03em;
+    }
+    /* *****directions**** */
+    .idc-directions .idc-container {
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 40px;
+    }
+    .idc-directions .idc-card:first-child {
+        margin-top: 10px;
+    }
+
+    /* *****fact**** */
+    .idc-facts .idc-container {
+        padding-bottom: 40px;
+    }
+    .idc-fact {
+        width: 100%;
+    }
+
+    .idc-fact:nth-child(2n) {
+        margin-left: 0;
+    }
+    .idc-fact > .idc-text-2 {
+        font-size: 16px;
+        line-height: 25px;
+        padding-left: 46px;
+        padding-right: 46px;
+    }
+    /* **********footer********* */
+    .idc-footer .idc-container {
+        padding-bottom: 50px;
+    }
 }
 
 @media (max-width: 395px) {
-    .idc-container {
-        padding-left: 20px;
-        padding-right: 20px;
+    .idc-title-h1 {
+        text-align: center;
     }
-    
+    /* *****head**** */
+    .idc-head__img:nth-child(4) {
+        display: none;
+    }
+    /* *****about**** */
+    .idc-about .idc-container {
+        padding-top: 10px;
+    }
+    .idc-about .idc-card:first-child {
+        margin-top: 20px;
+    }
+    .idc-card__icon {
+        margin: 0 auto;
+    }
+
+    /* *****mission**** */
+
+    .idc-mission .idc-list__icon {
+        position: relative;
+        margin: 0 auto;
+    }
+    .idc-mission .idc-list-item {
+        padding-left: 0;
+        text-align: center;
+    }
+    .idc-mission .idc-list-item:not(:first-child) {
+        margin-top: 10px;
+    }
+    .idc-mission .idc-title-h3 {
+        padding-top: 0;
+        padding-bottom: 5px;
+        margin-top: 10px;
+    }
+    /* *****slider**** */
+
+    .idc-subslider {
+        padding: 20px;
+    }
+    .idc-subslider .idc-title-h3 {
+        text-align: center;
+        max-width: 160px;
+        margin: 0 auto;
+    }
+
+    .idc-swiper-button-prev,
+    .idc-swiper-button-next {
+        display: none;
+    }
+
+    /* ******pluses******** */
+    .idc-pluses .idc-list-item:not(:first-child) {
+        margin-top: 4px;
+    }
+    .idc-pluses .idc-container {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .idc-pluses .idc-item__icon {
+        position: relative;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        top: 0;
+        margin: 0 auto;
+    }
+    .idc-pluses .idc-list-item {
+        padding-left: 0;
+        text-align: center;
+    }
+    .idc-video {
+        height: 168px;
+    }
+    /* *****aquad**** */
+    .idc-squad .idc-container {
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+    .idc-squad .idc-title-h1 {
+        max-width: 261px;
+    }
+    .idc-directions .idc-title-h2 {
+        padding-right: 25px;
+    }
+    /* *****fact**** */
+
+    .idc-fact > .idc-text-2 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .idc-fact:nth-child(2) .idc-text-2 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* *****footer**** */
+
+    .idc-footer .idc-container {
+        padding-bottom: 25px;
+    }
 }
